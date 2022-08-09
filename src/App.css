@@ -1,0 +1,38 @@
+.App{
+  text-align: center;
+}
+.App h2{
+  font-size: 1.9rem;
+  margin-top: 30px;
+}
+.searchCont input{
+  border-radius: 20px;
+  padding: 1.4rem;
+  font-size: 1rem;
+  text-align: center;
+  background: rgb(189, 231, 189);
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+.cardCont{
+  width: 100%;
+  height: auto;
+  margin: 13px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card img{
+  width: 250px;
+}
+.card{
+  margin: 50px auto;
+  width: auto;
+  height: auto;
+  background: rgb(189, 231, 189);
+  margin: 10px 20px;
+}
+.card p{
+  margin: 10px 0px;
+}
