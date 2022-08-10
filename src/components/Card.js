@@ -13,7 +13,7 @@ const Card = (props) => {
                     }
                 }).map((user,key) => (
                     <div key={key.toString()} className="card">
-                        <img src={`https://robohash.org/${user.name}`} alt={user.name} />
+                        <img src={`https://robohash.org/${user.name}?set=set3`} alt={user.name} />
                         <p>{user.name}</p>
                         <p>{user.email}</p>
                         <p>{user.phone}</p>
